@@ -1,9 +1,12 @@
 function copiarTexto() {
-    const message = document.getElementById("text")
-    
-    message.style.animation = "flyDown 5s ease-out forwards"
-    
     const copiar = "script"
 
     navigator.clipboard.writeText(copiar)
 }
+
+const sim = document.getElementById("sim")
+    const botao1 = document.getElementById("botao")
+    
+    botao1.addEventListener("click", function() {
+        sim.style.opacity = 1;
+    });
