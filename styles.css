@@ -24,15 +24,13 @@
     top: 320px;
     left: 270px;
     font-size: 100px;
-    transition: 5s ease-in-out;
   }
-}
-
-@keyframes flyDown {
-  0% {
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(1000px);
+  #sim {
+    opacity: 0%;
+    position: absolute;
+    top: 1100px;
+    left: 180px;
+    font-size: 50px;
+    color: #00FF00;
   }
 }
