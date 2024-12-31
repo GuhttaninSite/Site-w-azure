@@ -1,4 +1,4 @@
-alert("Site e bot desenvolvidos por Guhttanin.")
+alert("Site e bot desenvolvidos por Guhttanin. Se para você o site está bugado, vá nos três pontinhos ou nas três barrinhas e habilite o modo de computador.")
 
 function copiarTexto() {
     const copiar = "script"
